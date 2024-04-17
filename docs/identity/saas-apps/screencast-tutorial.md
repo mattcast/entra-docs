@@ -12,7 +12,7 @@ ms.topic: tutorial
 ms.date: 03/19/2022
 ms.author: jeedes
 
-# Customer intent: As an IT administrator, I want to learn how to configure single sign-on between Microsoft Entra ID and Screencast-O-Matic so that I can control who has access to Screencast-O-Matic, enable automatic sign-in with Microsoft Entra accounts, and manage my accounts in one central location.
+# Customer intent: As an IT administrator, I want to learn how to configure single sign-on between Microsoft Entra ID and ScreenPal so that I can control who has access to ScreenPal, enable automatic sign-in with Microsoft Entra accounts, and manage my accounts in one central location.
 ---
 
 # Tutorial: Microsoft Entra single sign-on (SSO) integration with ScreenPal
@@ -82,10 +82,10 @@ Follow these steps to enable Microsoft Entra SSO.
 1. On the **Basic SAML Configuration** section, perform the following step:
 
     In the **Sign-on URL** text box, type a URL using the following pattern:
-    `https://screencast-o-matic.com/<InstanceName>`
+    `https://screenpal.com/<InstanceName>`
 
 	> [!NOTE]
-	> The value is not real. Update the value with the actual Sign-On URL. Contact [ScreenPal support team](mailto:support@screencast-o-matic.com) to get the value. You can also refer to the patterns shown in the **Basic SAML Configuration** section.
+	> The value is not real. Update the value with the actual Sign-On URL. Contact [ScreenPal support team](https://screenpal.com/submit-a-ticket) to get the value. You can also refer to the patterns shown in the **Basic SAML Configuration** section.
 
 1. On the **Set up single sign-on with SAML** page, in the **SAML Signing Certificate** section,  find **Federation Metadata XML** and select **Download** to download the certificate and save it on your computer.
 
@@ -147,7 +147,7 @@ In this section, you'll enable B.Simon to use single sign-on by granting access 
 
 ### Create ScreenPal test user
 
-In this section, a user called Britta Simon is created in ScreenPal. ScreenPal supports just-in-time user provisioning, which is enabled by default. There is no action item for you in this section. If a user doesn't already exist in ScreenPal, a new one is created after authentication. If you need to create a user manually, contact [ScreenPal Client support team](mailto:support@screencast-o-matic.com).
+In this section, a user called Britta Simon is created in ScreenPal. ScreenPal supports just-in-time user provisioning, which is enabled by default. There is no action item for you in this section. If a user doesn't already exist in ScreenPal, a new one is created after authentication. If you need to create a user manually, contact [ScreenPal Client support team](https://screenpal.com/submit-a-ticket).
 
 ## Test SSO
 
